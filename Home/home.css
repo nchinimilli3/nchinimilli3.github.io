@@ -1,7 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Playfair+Display&family=Source+Sans+3:wght@300&display=swap');
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -51,7 +51,12 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-
+.navbar, .carousel-caption, h2{
+  font-family: 'Playfair Display', serif;
+}
+.carousel-subcaption, p{
+  font-family: 'Source Sans 3', sans-serif;
+}
 
 /* Featurettes
 ------------------------- */
