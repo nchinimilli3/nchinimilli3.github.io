@@ -230,7 +230,7 @@ input {
 
 a.navbar-brand, a.logo {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #444342 !important;
+  
   font-size: 2rem;
   font-weight: bold;
   margin-top: 0; }
@@ -355,63 +355,7 @@ li.nav-item .active {
   color: #a28d6c !important;
   background-color: none; }
 
-.carousel {
-  background: #e7e2df;
-  text-align: left;
-  background-size: cover;
-  min-height: 30rem;
-  height: auto;
-  border-radius: 0;
-  width: 100%;
-  color: #111;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .carousel .carousel-item {
-    background-size: cover !important; }
-  .carousel .container {
-    min-height: 30rem;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .carousel .carousel-indicators li {
-    background-color: #dfe1e5;
-    background-color: rgba(0, 0, 0, 0.25);
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin: 0 5px; }
-  .carousel .carousel-indicators li.active {
-    background-color: #444342;
-    background-color: rgba(0, 0, 0, 0.75); }
-  .carousel .slide-textonly {
-    margin: auto auto;
-    padding: 0 1rem;
-    text-align: center; }
-  .carousel .slide-withimage {
-    margin: auto auto;
-    padding: 0 1rem; }
-    .carousel .slide-withimage .description {
-      float: left;
-      width: 55%; }
-    .carousel .slide-withimage .slide-image {
-      float: right;
-      width: 45%; }
-      .carousel .slide-withimage .slide-image img {
-        width: 100%; }
-  .carousel h1 {
-    font-weight: 400;
-    font-size: 4em; }
-  .carousel p.lead {
-    margin: .5em auto 2em auto;
-    font-size: 1.3em;
-    color: #fff;
-    color: #444342; }
-  .carousel .cover-container {
-    display: table;
-    height: 100%;
-    min-height: 44rem;
-    margin: 0 auto; }
+
 
 .collections .col {
   margin: 0 !important;
