@@ -467,3 +467,16 @@ container{
   font-weight: bold; 
   color: black; 
 }
+#reasonDisplay {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+button {
+  display: block; 
+  background-color: green; /* Center the button text */
+}

@@ -445,8 +445,8 @@ li.nav-item .active {
 
 .product-image {
   border: 1px solid #dfe1e5;
-  width: 100%; }
-
+  width: 100%; 
+}
 .product-thumbnails img {
   border: 1px solid #dfe1e5;
   width: 15%; }

@@ -1,14 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Playfair+Display:400,400i,700");
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Playfair+Display&family=Source+Sans+3:wght@300&display=swap');
+
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #343A40;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400; 
 }
 
 
+h1 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 400; }
+
+h2 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.8rem;
+  font-weight: 300; }
+
+h3 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 300; }
+
+h4{
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem; }
+
+h5, .btn {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem; }
+
+h6 {
+  font-weight: 700; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #495057;
+  text-decoration: none; }
+
+p {
+  font-size: 1em;
+  font-weight: 300; }
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.carousel-caption {
+  color: #DEE2E6;
+  font-weight: 600;
+}
+.carousel-subcaption{
+  color:white;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -25,7 +83,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background-color: #777;
+  background-color: #212529;
 }
 .carousel-item > img {
   position: absolute;
@@ -39,12 +97,6 @@ body {
     transform-origin: center;
 }
 
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -57,10 +109,10 @@ body {
   margin-left: .75rem;
 }
 .navbar, .carousel-caption, h2{
-  font-family: 'Playfair Display', serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .carousel-subcaption, p{
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Featurettes
@@ -98,4 +150,20 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.navbar {
+  background-color: black;
+}
+
+.btn {
+  background-color: #343A40;
+  border: none;
+  color: #E9ECEF
+}
+
+.btn:hover {
+  background-color: #E9ECEF;
+  color: #212529 ;
+  cursor:pointer;
 }
