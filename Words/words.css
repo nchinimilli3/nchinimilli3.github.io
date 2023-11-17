@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=UnifrakturCook:700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Playfair+Display:400,400i,700");
 
 body {
   background: #222;
@@ -278,7 +279,7 @@ body {
   width: 208px;
   height: 188px;
   margin-top: 4px;
-  background-image: url(https://i.imgur.com/ll51JF4.png);
+  background-image: url(/pics/IMG_0279.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -474,9 +475,29 @@ container{
   align-items: center;
   justify-content: center;
   height: auto;
+  margin-top: 100px;
+  font-family: "Lato";
+  font-weight: 500;
 }
 
 button {
-  display: block; 
-  background-color: green; /* Center the button text */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  position: absolute;
+margin-top: 10px;
+  margin-bottom: 150px;
+  margin-left: 275px;
+  background-color: #343A40;
+  border: none;
+  color: #E9ECEF;
+  padding: 15px 32px;
+  font-family: "Lato";
+  font-weight: 300;
+}
+
+button:hover {
+  background-color: #E9ECEF;
+  color: #212529 ;
+  cursor:pointer;
 }

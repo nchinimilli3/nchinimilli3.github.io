@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Aurum - Bootstrap 4 Ecommerce Template</title>
+		<title>Cart</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -15,131 +15,117 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-	
-		<section class="header text-center">
-			<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-				<div class="container"><a class="navbar-brand" href="index.html"><i class="fas fa-shopping-bag primary-color mr-1"></i> Aurum</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1" aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-					<div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbar-1">
-						<ul class="navbar-nav mt-2 mt-md-0">
-							<li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
-							<li class="nav-item dropdown mega-menu"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop </a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<div class="container">
-										<div class="divider"></div>
-										<div class="row">
-											<div class="col-md-2">
-												<h6 class="text-uppercase">Women's</h6>
-												<ul class="nav flex-column">
-													<li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-												</ul>
-											</div>
-											<div class="col-md-2">
-												<h6 class="text-uppercase">Men's</h6>
-												<ul class="nav flex-column">
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-												</ul>
-											</div>
-											<div class="col-md-2">
-												<h6 class="text-uppercase">Girl's</h6>
-												<ul class="nav flex-column">
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-												</ul>
-											</div>
-											<div class="col-md-2">
-												<h6 class="text-uppercase">Boy's</h6>
-												<ul class="nav flex-column">
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
-												</ul>
-											</div>
-											<div class="col-md-4">
-												<h6 class="text-uppercase">Featured Items</h6>
-												<div class="row">
-													<div class="col-6 text-center"><a href="item.html">
-														<img src="images/placeholder-product.jpg" alt="" class="img-fluid mt-2 mb-3"></a>
-														<h6 class="mb-0"><a href="item.html">Product Name</a></h6>
-														<p><span class="emphasis">$49.00</span></p>
-														<a href="#" class="btn btn-sm btn-outline-secondary mt-0">Buy Now</a>
-												<p></div>
-													<div class="col-6 text-center"><a href="item.html">
-														<img src="images/placeholder-product.jpg" alt="" class="img-fluid mt-2 mb-3"></a>
-														<h6 class="mb-0"><a href="item.html">Product Name</a></h6>
-														<p><span class="emphasis">$49.00</span></p>
-														<a href="#" class="btn btn-sm btn-outline-secondary mt-0">Buy Now</a>
-												<p></div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages </a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="index.html">Homepage</a>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="catalog.html">Catalog</a>
-									<a class="dropdown-item" href="item.html">Item Detail</a>
-									<a class="dropdown-item" href="cart.html">Cart</a>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="contact.html">Contact</a></div>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-							<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i> <span class="badge badge-pill badge-primary">3</span></a>
-								<div class="dropdown-menu dropdown-menu-right dropdown-cart" aria-labelledby="navbarDropdown">
-									<h6>3 Items <span class="emphasis">$147.00</span></h6>
-									<div class="dropdown-divider"></div>
-									<ul class="shopping-cart-items">
-										<li class="row">
-											<div class="col-3">
-												<img src="images/placeholder-product.jpg" width="60">
-											</div>
-											<div class="col-9">
-												<h6><a href="item.html">One Paragraph On Demand</a></h6>
-												<span class="text-muted">1x</span>
-												<span class="emphasis">One Coupon</span></div>
-										</li>
-										<li class="row">
-											<div class="col-3">
-												<img src="images/placeholder-product.jpg" width="60">
-											</div>
-											<div class="col-9">
-												<h6><a href="item.html">Product Name</a></h6>
-												<span class="text-muted">1x</span>
-												<span class="emphasis">$49.00</span></div>
-										</li>
-										<li class="row">
-											<div class="col-3">
-												<img src="images/placeholder-product.jpg" width="60">
-											</div>
-											<div class="col-9">
-												<h6><a href="item.html">Product Name</a></h6>
-												<span class="text-muted">1x</span>
-												<span class="emphasis">$49.00</span></div>
-										</li>
-									</ul>
-									
-									<a href="cart.html" class="btn btn-lg btn-full-width btn-primary" style="margin: 0;">View Cart</a></div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</section>
+    <section class="header text-center">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container"><a class="navbar-brand" href="index.html"><i class="fas fa-shopping-bag primary-color mr-1"></i> Happy Birthday Sujay</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1" aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbar-1">
+            <ul class="navbar-nav mt-2 mt-md-0">
+              <li class="nav-item active"><a class="nav-link" href="#">Store Home<span class="sr-only">(current)</span></a></li>
+              <li class="nav-item dropdown mega-menu"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="container">
+                    <div class="divider"></div>
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h6 class="text-uppercase">Words</h6>
+                        <ul class="nav flex-column">
+                          <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <h6 class="text-uppercase">Spicy</h6>
+                        <ul class="nav flex-column">
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <h6 class="text-uppercase">Food</h6>
+                        <ul class="nav flex-column">
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <h6 class="text-uppercase">Touch</h6>
+                        <ul class="nav flex-column">
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+
+                        </ul>
+                      </div>
+                      <div class="col-md-4">
+                        <h6 class="text-uppercase">Featured Items</h6>
+                        <div class="row">
+                          <div class="col-6 text-center"><a href="item.html">
+                            <img src="images/3.png" alt="" class="img-fluid mt-2 mb-3"></a>
+                            <h6 class="mb-0"><a href="item.html">A Dish of Your Choice</a></h6>
+                            <p><span class="emphasis">One Kiss</span></p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary mt-0">Buy Now</a>
+                        <p></div>
+                          <div class="col-6 text-center"><a href="item.html">
+                            <img src="images/15.png" alt="" class="img-fluid mt-2 mb-3"></a>
+                            <h6 class="mb-0"><a href="item.html">Head Anywhere</a></h6>
+                            <p><span class="emphasis">One Kiss</span></p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary mt-0">Buy Now</a>
+                        <p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i> <span class="badge badge-pill badge-primary">3</span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-cart" aria-labelledby="navbarDropdown">
+                  <h6>3 Items <span class="emphasis">3 Kisses</span></h6>
+                  <div class="dropdown-divider"></div>
+                  <ul class="shopping-cart-items">
+                    <li class="row">
+                      <div class="col-3">
+                        <img src="images/4.png" width="60">
+                      </div>
+                      <div class="col-9">
+                        <h6><a href="item.html">One Paragraph</a></h6>
+                        <span class="text-muted">1x</span>
+                        <span class="emphasis">One Kiss</span></div>
+                    </li>
+                    <li class="row">
+                      <div class="col-3">
+                        <img src="images/6.png" width="60">
+                      </div>
+                      <div class="col-9">
+                        <h6><a href="item.html">One Striptease</a></h6>
+                        <span class="text-muted">1x</span>
+                        <span class="emphasis">One Kiss</span></div>
+                    </li>
+                    <li class="row">
+                      <div class="col-3">
+                        <img src="images/10.png" width="60">
+                      </div>
+                      <div class="col-9">
+                        <h6><a href="item.html">A Day of Yes</a></h6>
+                        <span class="text-muted">1x</span>
+                        <span class="emphasis">One Kiss</span></div>
+                    </li>
+                  </ul>
+
+                  <a href="cart.html" class="btn btn-lg btn-full-width btn-primary" style="margin: 0;">View Cart</a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
 		
 		<section class="cart text-center">
 			<div class="container">
@@ -165,15 +151,15 @@
 									<td data-th="Product">
 										<div class="row">
 											<div class="col-md-3 text-left">
-												<img src="images/placeholder-product.jpg" alt="" class="img-fluid">
+												<img src="images/38.png" alt="" class="img-fluid">
 											</div>
 											<div class="col-md-9 text-left mt-sm-2">
-												<h4>Product Name</h4>
-												<p>York &amp; Smith</p>
+												<h4>A Dish of Your Choice</h4>
+												<p>Neha &amp; Sujay</p>
 											</div>
 										</div>
 									</td>
-									<td data-th="Price">$49.00</td>
+									<td data-th="Price">One Kiss</td>
 									<td data-th="Quantity">
 										<input type="number" class="form-control text-center" value="1">
 									</td>
@@ -188,15 +174,15 @@
 									<td data-th="Product">
 										<div class="row">
 											<div class="col-md-3 text-left">
-												<img src="images/placeholder-product.jpg" alt="" class="img-fluid">
+												<img src="images/33.png" alt="" class="img-fluid">
 											</div>
 											<div class="col-md-9 text-left mt-sm-2">
-												<h4>Product Name</h4>
-												<p>York &amp; Smith</p>
+												<h4>Head Anywhere </h4>
+												<p>Neha &amp; Sujay</p>
 											</div>
 										</div>
 									</td>
-									<td data-th="Price">$49.00</td>
+									<td data-th="Price">One Kiss</td>
 									<td data-th="Quantity">
 										<input type="number" class="form-control text-center" value="1">
 									</td>
@@ -211,15 +197,15 @@
 									<td data-th="Product">
 										<div class="row">
 											<div class="col-md-3 text-left">
-												<img src="images/placeholder-product.jpg" alt="" class="img-fluid">
+												<img src="images/15.png" alt="" class="img-fluid">
 											</div>
 											<div class="col-md-9 text-left mt-sm-2">
 												<h4>One Paragraph On Demand</h4>
-												<p>York &amp; Smith</p>
+												<p>Neha &amp; Sujay</p>
 											</div>
 										</div>
 									</td>
-									<td data-th="Price">One Coupon</td>
+									<td data-th="Price">One Kiss</td>
 									<td data-th="Quantity">
 										<input type="number" class="form-control text-center" value="1">
 									</td>
@@ -234,7 +220,7 @@
 						</table>
 						<div class="float-right text-right">
 							<h4>Subtotal:</h4>
-							<h1>$147.00</h1>
+							<h1>3 Kisses</h1>
 							<p>(Excluding Delivery)</p>
 						</div>
 					</div>
@@ -248,90 +234,87 @@
 		
 		<div class="divider"></div>
 		
-		<section class="cta text-center">
-			<div class="container">
-				<h3 class="mt-0 mb-4">Sign up now to save 10% on your first order</h3>
-				<form class="subscribe">
-					<div class="form-group row pt-3">
-						<div class="col-sm-8 mb-3">
-							<input type="text" class="form-control" id="inputName" placeholder="Your Name">
-						</div>
-						<div class="col-sm-4">
-							<button type="submit" class="btn btn-lg btn-outline-primary">Sign me up</button>
-						</div>
-					</div>
-				</form>
-			</div>
-		</section>
-		
-		<footer class="footer">
-			<div class="container">
-				<div class="row mb-5 text-center">
-					<div class="col-sm-6 col-md-3 pt-2">
-						<h5>Women's</h5>
-						<ul class="nav-footer">
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-md-3 pt-2">
-						<h5>Men's</h5>
-						<ul class="nav-footer">
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-md-3 pt-2">
-						<h5>Girl's</h5>
-						<ul class="nav-footer">
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-						</ul>
-					</div>
-					<div class="col-sm-6 col-md-3 pt-2">
-						<h5>Boy's</h5>
-						<ul class="nav-footer">
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Link Item</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			
-			<div class="container-fluid">
-				<div class="divider"></div>
-			</div>
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 text-center text-md-left mt-2 mb-3 pt-1">
-						<p class="copyright">Copyright &copy; Example. Theme by <a href="https://medialoot.com">Medialoot</a>.</p>
-					</div>
-					<div class="col-md-6 text-center text-md-right mb-4">
-						<ul class="social">
-							<li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" title="Google+"><i class="fab fa-google"></i></a></li>
-							<li><a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
-							<li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-							<div class="clear"></div>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
+    <section class="cta text-center">
+      <div class="container">
+        <h3 class="mt-0 mb-4">Sign up now to get a free hug on your first order</h3>
+        <form class="subscribe">
+          <div class="form-group row pt-3">
+            <div class="col-sm-8 mb-3">
+              <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+            </div>
+            <div class="col-sm-4">
+              <button type="submit" class="btn btn-lg btn-outline-primary">Sign me up</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col-sm-6 col-md-3 pt-2">
+            <h5>Words of Affirmation</h5>
+            <ul class="nav-footer">
+              <li class="nav-item"><a class="nav-link" href="item2.html">A Love Letter</a></li>
+              <li class="nav-item"><a class="nav-link" href="item.html">1 Paragraph on Demand</a></li>
+              <li class="nav-item"><a class="nav-link" href="item12.html">Ask Me Anything</a></li>
+              <li class="nav-item"><a class="nav-link" href="item11.html">A Day Where I Only Say Yes</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 pt-2">
+            <h5>Spicy</h5>
+            <ul class="nav-footer">
+              <li class="nav-item"><a class="nav-link" href="item5.html">A Massage Anywhere</a></li>
+              <li class="nav-item"><a class="nav-link" href="item8.html">We Drink & You Lead</a></li>
+              <li class="nav-item"><a class="nav-link" href="item9.html">Head Anywhere</a></li>
+              <li class="nav-item"><a class="nav-link" href="item10.html">DTF Anywhere</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 pt-2">
+            <h5>Love</h5>
+            <ul class="nav-footer">
+              <li class="nav-item"><a class="nav-link" href="item.html">One Paragraph on Demand</a></li>
+              <li class="nav-item"><a class="nav-link" href="item2.html">A Love Letter</a></li>
+              <li class="nav-item"><a class="nav-link" href="item5.html">A Massage Anywhere</a></li>
+              <li class="nav-item"><a class="nav-link" href="item6.html">A Dish of Your Choice</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 pt-2">
+            <h5>Intimate</h5>
+            <ul class="nav-footer">
+              <li class="nav-item"><a class="nav-link" href="item5.html">A Massage Anywhere</a></li>
+              <li class="nav-item"><a class="nav-link" href="item9.html">Head Anywhere</a></li>
+              <li class="nav-item"><a class="nav-link" href="item8.html">We Drink & You Lead</a></li>
+              <li class="nav-item"><a class="nav-link" href="item4.html">Watch Dune High</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="divider"></div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-left mt-2 mb-3 pt-1">
+            <p class="copyright">Copyright &copy; Neha Chinimilli @ <a></a>Chinimilli Co</a>.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-right mb-4">
+            <ul class="social">
+              <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" title="Google+"><i class="fab fa-google"></i></a></li>
+              <li><a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+              <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
 		
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="js/jquery-3.1.1.min.js"></script>
